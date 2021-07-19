@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Motor">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+      <ImageView fitHeight="409.0" fitWidth="620.0" layoutX="-10.0" layoutY="-4.0">
+         <image>
+            <Image url="@../img/motor_p1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="ok" layoutX="307.0" layoutY="346.0" mnemonicParsing="false" onAction="#userOk" prefHeight="47.0" prefWidth="110.0" style="-fx-background-color: #d4ae28;" text="Ok">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5977777693006728" centerY="0.5" cycleMethod="REFLECT" focusDistance="-0.13084108584395082" radius="0.6962616287659262">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.8313725590705872" green="0.6823529601097107" blue="0.1568627506494522" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Button>
+      <Button fx:id="cancel" layoutX="426.0" layoutY="346.0" mnemonicParsing="false" onAction="#userCancel" prefHeight="47.0" prefWidth="110.0" style="-fx-background-color: #d4ae28;" text="Cancel">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5977777693006728" centerY="0.5" cycleMethod="REFLECT" focusDistance="-0.13084108584395082" radius="0.6962616287659262">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.686274528503418" green="0.8313725590705872" blue="0.15294118225574493" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Button>
+      <Button fx:id="product" layoutX="10.0" layoutY="14.0" mnemonicParsing="false" onAction="#userProduct" prefHeight="40.0" prefWidth="110.0" style="-fx-background-color: #d4ae28;" text="Product">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5977777693006728" centerY="0.5" cycleMethod="REFLECT" focusDistance="-0.13084108584395082" radius="0.6962616287659262">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.8313725590705872" green="0.6823529601097107" blue="0.1568627506494522" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Button>
+      <Button fx:id="animal" layoutX="120.0" layoutY="14.0" mnemonicParsing="false" onAction="#userAnimal" prefHeight="40.0" prefWidth="104.0" style="-fx-background-color: #d4ae28;" text="Animal">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5977777693006728" centerY="0.5" cycleMethod="REFLECT" focusDistance="-0.13084108584395082" radius="0.6962616287659262">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.8313725590705872" green="0.6823529601097107" blue="0.1568627506494522" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Button>
+   </children>
+</Pane>
